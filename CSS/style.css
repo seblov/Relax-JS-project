@@ -31,7 +31,7 @@
   height: 50%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) rotate(-90deg);
   pointer-events: none;
 }
 
@@ -40,6 +40,7 @@
   bottom: 10%;
   color: white;
   font-size: 50px;
+  font-family: sans-serif;
 }
 
 video {
@@ -61,10 +62,32 @@ video {
   border-radius: 5px;
   font-size: 20px;
   transition: all 0.5s ease;
-  
+
 }
 
 .time-select button:hover {
   color: black;
   background: white;
+}
+
+.sound-picker button{
+    border: none;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.sound-picker button:nth-child(1){
+    background: #18559b;
+}
+.sound-picker button:nth-child(2){
+    background: #a19149;
+}
+.sound-picker button:nth-child(3){
+  background: #86fda4;
+}
+
+.sound-picker button img{
+    height: 100%;
 }
