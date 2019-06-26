@@ -79,13 +79,13 @@ video {
 }
 
 .sound-picker button:nth-child(1){
-    background: #18559b;
+    background: #244468;
 }
 .sound-picker button:nth-child(2){
-    background: #a19149;
+    background: #eed66c;
 }
 .sound-picker button:nth-child(3){
-  background: #86fda4;
+  background: #98b19e;
 }
 
 .sound-picker button img{
